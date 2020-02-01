@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="69755" started-at="2019-11-22T05:57:08Z" finished-at="2019-11-22T05:58:18Z">
+    <groups>
+    </groups>
+    <test name="App Test" duration-ms="16" started-at="2019-11-22T05:57:08Z" finished-at="2019-11-22T05:57:08Z">
+    </test> <!-- App Test -->
+    <test name="Login Page" duration-ms="41007" started-at="2019-11-22T05:57:08Z" finished-at="2019-11-22T05:57:49Z">
+      <class name="Academy.HomePage">
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.HomePage@3e2e18f2]" name="basePageNavigation" duration-ms="19923" started-at="2019-11-22T11:27:08Z" data-provider="getData" finished-at="2019-11-22T11:27:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nonrestricteduser@qw.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Restricted User]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.HomePage@3e2e18f2]" name="basePageNavigation" duration-ms="19921" started-at="2019-11-22T11:27:28Z" data-provider="getData" finished-at="2019-11-22T11:27:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[restricteduser@qw.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[45678]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Non Restricted User]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Academy.HomePage@3e2e18f2]" name="teardown" is-config="true" duration-ms="1123" started-at="2019-11-22T11:27:48Z" finished-at="2019-11-22T11:27:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Academy.HomePage -->
+    </test> <!-- Login Page -->
+    <test name="Validating Title in the page" duration-ms="12825" started-at="2019-11-22T05:57:52Z" finished-at="2019-11-22T05:58:05Z">
+      <class name="Academy.validateTitle">
+        <test-method status="PASS" signature="basePageNavigation()[pri:0, instance:Academy.validateTitle@353d0772]" name="basePageNavigation" duration-ms="12475" started-at="2019-11-22T11:27:52Z" finished-at="2019-11-22T11:28:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Academy.validateTitle@353d0772]" name="teardown" is-config="true" duration-ms="346" started-at="2019-11-22T11:28:05Z" finished-at="2019-11-22T11:28:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Academy.validateTitle -->
+    </test> <!-- Validating Title in the page -->
+    <test name="Validating Navigation Bar" duration-ms="12735" started-at="2019-11-22T05:58:05Z" finished-at="2019-11-22T05:58:18Z">
+      <class name="Academy.ValidateNavigationBar">
+        <test-method status="PASS" signature="basePageNavigation()[pri:0, instance:Academy.ValidateNavigationBar@654f0d9c]" name="basePageNavigation" duration-ms="12579" started-at="2019-11-22T11:28:05Z" finished-at="2019-11-22T11:28:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Academy.ValidateNavigationBar@654f0d9c]" name="teardown" is-config="true" duration-ms="152" started-at="2019-11-22T11:28:18Z" finished-at="2019-11-22T11:28:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Academy.ValidateNavigationBar -->
+    </test> <!-- Validating Navigation Bar -->
+  </suite> <!-- Suite -->
+</testng-results>
